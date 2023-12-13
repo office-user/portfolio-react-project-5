@@ -69,6 +69,7 @@ const Home = () => {
               <span>Project Done</span>
             </article>
 
+            {/* here we give special class */}
             <article data-special>
               <p>Contact</p>
               <span>officail_gagan@gmail.com</span>
