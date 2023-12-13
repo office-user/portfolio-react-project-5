@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight } from "react-icons/bs";
-import profileimage  from "../assets/logo.png"
+import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
+import profileimage from "../assets/logo.png";
 
 const Home = () => {
   // with  object
@@ -43,7 +43,7 @@ const Home = () => {
               autoStart: true,
               loop: true,
               wrapperClassName: "typewriterpara",
-              //   cursor: "",
+              cursor: "",
             }}
           />
 
@@ -66,7 +66,7 @@ const Home = () => {
               <p>
                 +<span>500</span>
               </p>
-              <span>Project Made</span>
+              <span>Project Done</span>
             </article>
 
             <article data-special>
@@ -79,6 +79,7 @@ const Home = () => {
       <section>
         <img src={profileimage} alt="gagan" />
       </section>
+      <BsChevronDown />
     </div>
   );
 };
